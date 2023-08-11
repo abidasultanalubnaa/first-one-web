@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(207, 234, 243);
+  }
+  
+  h1 {
+    color: rgb(197, 183, 183);
+    text-align: right;
+  }
+  element.style {
+}
+.navbar-start {
+    width: 50%;
+    justify-content: flex-start;
+}
+:where(.navbar>*) {
+    display: inline-flex;
+    align-items: center;
+}
