@@ -1,18 +1,39 @@
-body {
-    background-color: rgb(207, 234, 243);
-  }
-  
-  h1 {
-    color: rgb(197, 183, 183);
-    text-align: right;
-  }
-  element.style {
+*{
+margin:10px 10px;
+padding:0px 10px;
+align-items: center;
 }
-.navbar-start {
-    width: 50%;
-    justify-content: flex-start;
+/*top part starts here*/
+.top{
+  display: flex;
+  align-items: center;
+  gap:200px;
+
 }
-:where(.navbar>*) {
-    display: inline-flex;
-    align-items: center;
+.first-heading{
+  font-size: 50px;
 }
+.first-pera{
+  font-size: 20px;
+}
+/*top part ends here*/
+/*bottom part starts here*/
+.bottom{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.second-heading{
+  font-size: 50px;
+}
+.second-pera{
+  font-size: 20px;
+}
+.btn{
+  padding: 10px;
+  background-color: #FF7F51;
+  color: white;
+  border: none;
+  border-radius: 15px;
+}
+/*bottom part ends here*/
